@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+body
+{
+	background-image:url(Images/8TAb584ec.jpg);
+    background-attachment: fixed;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	margin:0px;
+}
+
+#head
+{
+	height:50px;
+	width:100%;
+	font-family:"Monotype Corsiva";
+	font-size:40px;
+	padding:10px;
+	color:red;
+	background-color:white;
+	text-align:center;
+}
+
+#FNCanimation
+{
+	-webkit-animation-name:move;
+	-webkit-animation-duration:4s;
+}
+
+@keyframes move
+{
+	0%
+	{
+		-webkit-transform:rotate(30deg);
+		
+		
+	}
+	
+	50%
+	{
+
+		-webkit-transform:translateX(400px);	
+		-webkit-transform:rotate(-30deg);
+	}
+
+	100%
+	{
+		
+		-webkit-transform:translateX(0px);
+			
+	}
+	
+}
+
+#menu
+{
+	width:100%;
+	height:32px;
+	background-color:#6028FF;
+	
+
+	
+	
+}
+
+#menu li
+{
+	width:150px;
+	height:30px;
+	display:block;
+	float:left;
+	text-align:center;
+}
+#menu ul
+{
+	margin:0;
+	padding:0;
+	line-height:30px;
+	font-family:candara;
+}
+#menu a
+{
+	text-decoration:none;
+	font-family:candara;
+	font-size:18px;
+	color:#FFFFFF;
+}
+#menu ul li ul
+{
+	visibility:hidden;
+}
+#menu ul li:hover ul
+{
+	visibility:visible;
+	display:table-header-group;	
+}
+
+#menu ul li ul li:hover
+{
+	background-color:#AD91FD;
+	
+}
+
+#menu ul li ul li
+{
+	background-color:#6028FF;
+	color:#FFFFFF;
+	border-bottom:thick;
+	
+}
+
+#icon
+{
+	position: relative;
+	top:-4px;
+	
+	
+}
+
+#quote
+{
+	align-content:center;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+#inner {
+  display: table;
+  width:500px;
+  color:#909090;
+  font-family:calibri;
+  margin-left:425px;
+}
+
+.con
+{
+	height:400px;
+	width:100%;
+/*	border:1px solid #000000;*/
+	
+}
+
+.con1
+{
+	height:400px;
+	width:100%;
+	/*border:1px solid #000000;*/
+	background-color:#FFFFFF;
+}
+
+#con
+{
+	width:100%;
+	height:auto;
+	
+}
+
+#conimg1
+{
+	height:250px;
+	width:250px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+	
+	border-radius:50%;
+	margin:70px 200px;
+	float:left;
+}
+
+#condes1
+{
+	height:250px;
+	width:600px;
+	border:1px solid #000000;
+	
+	float:left;
+	margin-top:70px;
+	margin-left:-40px;
+	
+	
+
+}
+
+#conimg2
+{
+	height:250px;
+	width:250px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+	
+	border-radius:50%;
+	float:right;
+	margin-top:70px;
+	margin-left:-40px;
+	margin-right:150px;
+}
+
+#condes2
+{
+	height:250px;
+	width:600px;
+	border:1px solid #000000;
+	
+	margin:70px 150px;
+	float:right;
+}
+
